@@ -1,0 +1,165 @@
+/* EmployeeDashboard.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+}
+
+.dashboard-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 25px;
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.dashboard-container:hover {
+  transform: scale(1.005);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #002e4d;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  font-family: 'Segoe UI Semibold', Tahoma, sans-serif;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 1.7rem;
+  color: #ffffff;
+}
+
+.navbar button {
+  background-color: #008b8b;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar button:hover {
+  background-color: #007373;
+  transform: scale(1.05);
+}
+
+.employee-info {
+  text-align: center;
+  background-color: #e1f5fe;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  color: #003c58;
+}
+
+.employee-info h3 {
+  margin-bottom: 8px;
+  font-size: 1.3rem;
+}
+
+.employee-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #003c58;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.dashboard-content h4 {
+  margin-bottom: 15px;
+  color: #005e7c;
+}
+
+.customer-details {
+  text-align: left;
+  background-color: #f7fcff;
+  border-left: 4px solid #00b4aa;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 180, 170, 0.15);
+  margin: 0 auto 20px auto;
+  max-width: 600px;
+}
+
+.customer-details p {
+  margin: 8px 0;
+  font-size: 0.95rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+}
+
+/* Updated button colors */
+.mark-served-button {
+  background-color: #4a90e2;
+  color: white;
+}
+
+.mark-served-button:hover {
+  background-color: #4178c0;
+  transform: scale(1.05);
+}
+
+.send-email-button {
+  background-color: #43a047;
+  color: white;
+}
+
+.send-email-button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+}
+
+.next-button {
+  background-color: #f57c00;
+  color: white;
+}
+
+.next-button:hover {
+  background-color: #ef6c00;
+  transform: scale(1.05);
+}
+
+.success-message {
+  color: #2e7d32;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.error-message {
+  color: #d32f2f;
+  font-weight: 500;
+  margin-bottom: 10px;
+}

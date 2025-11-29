@@ -1,0 +1,95 @@
+/* Page background and layout */
+.check-status-container {
+  background-color: #f0f6ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header bar */
+.header {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.back-button {
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 1.2rem;
+  color: #2563eb;
+  cursor: pointer;
+}
+
+/* Status card */
+.status-card {
+  background-color: #fff;
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 5px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.status-card h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-subtext {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 1.5rem;
+}
+
+/* Input field */
+.status-card input {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 0.4rem;
+  font-size: 1rem;
+}
+
+/* Submit button */
+.submit-button {
+  width: 100%;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.submit-button:hover {
+  background-color: #1d4ed8;
+}
+
+/* Result section */
+.status-result {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.status-result p {
+  margin: 0.4rem 0;
+}
+
+.error {
+  color: red;
+}

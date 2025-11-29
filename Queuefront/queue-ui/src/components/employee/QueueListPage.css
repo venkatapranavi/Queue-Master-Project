@@ -1,0 +1,78 @@
+/* QueueListPage.css */
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f7fa;
+}
+
+.queue-list-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.queue-list-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #003e5f;
+  font-weight: bold;
+}
+
+.queue-list-container button {
+  background-color: #005c99;
+  color: #fff;
+  padding: 10px 22px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 12px rgba(0, 92, 153, 0.3);
+}
+
+.queue-list-container button:hover {
+  background-color: #004a80;
+  transform: scale(1.05);
+}
+
+.queue-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.queue-table th, .queue-table td {
+  padding: 14px 18px;
+  text-align: left;
+  font-size: 1rem;
+  border-bottom: 1px solid #e0e6ed;
+}
+
+.queue-table th {
+  background-color: #f0f4f8;
+  color: #004f70;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.queue-table tr:hover {
+  background-color: #f9fcff;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.queue-table td {
+  color: #333;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #888;
+  margin-top: 30px;
+}
