@@ -363,17 +363,3 @@ REACT_APP_BACKEND_URL=https://queue-deployment.onrender.com
 | 🧮 Database | [https://console.neon.tech/app/projects/jolly-rain-37321622](https://console.neon.tech/app/projects/jolly-rain-37321622)   |
 
 
-## 📞 Contact
-
-For questions, issues, or contributions:
-
-- 📧 Email: kotakalagopika@gmail.com  
-- 🐙 GitHub: [github.com/https://github.com/gopika04-saru](https://github.com/gopika04-saru)
-
-- 📧 Email: gudipatikalpana14@gmail.com
-- 🐙 GitHub: [github.com/https://github.com/Kalpana-1418](https://github.com/Kalpana-1418)
-
-- 📧 Email: miryaladeepthi2005@gmail.com
-- 🐙 GitHub: [github.com/https://github.com/MiriyalaDeepti](https://github.com/MiriyalaDeepti)
-
----
